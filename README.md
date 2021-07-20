@@ -1,2 +1,3 @@
 # goit-resume-independently
-Разработка сайта-резюме, что был представлен на марафоне от компании GoIT за июль 2021.  Разработка ведется на синтаксисе предпроцессора SASS - SCSS
+The site development is a summary that was presented at the marathon from the company GoIT for July 2021. 
+The development is on the syntax of the pre-processor SASS - SCSS
