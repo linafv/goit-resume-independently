@@ -153,6 +153,18 @@ body {
   margin-bottom: 0;
 }
 
+.sidebar__skills {
+  list-style: disc;
+  list-style: inside;
+}
+
+.sidebar__skills::marker {
+  /*! No support in Internet Explorer, Samsung Internet; Partial support in Safari, Safari on iOS*/
+  color: #fb6d3a;
+  font-size: 12px;
+  line-height: 24px;
+}
+
 .img {
   margin-top: 40px;
   margin-bottom: 50px;
