@@ -225,6 +225,30 @@ body {
   margin-bottom: 50px;
 }
 
+.projects__list {
+  padding-left: 17px;
+}
+
+.projects__item {
+  padding-left: 13px;
+  color: #000;
+  font-weight: 700;
+}
+
+.projects__item-inner {
+  color: #595959;
+  font-weight: 500;
+}
+
+.projects__link:hover {
+  opacity: 0.5;
+}
+
+.projects__brackets {
+  color: #000;
+  font-weight: 700;
+}
+
 .work-exp {
   margin-bottom: 45px;
 }
