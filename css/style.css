@@ -164,12 +164,8 @@ body {
   text-decoration: underline;
 }
 
-.sidebar__item {
+.sidebar__item:not(:last-child) {
   margin-bottom: 45px;
-}
-
-.sidebar__item:last-child {
-  margin-bottom: 0;
 }
 
 .sidebar__skills {
@@ -266,18 +262,17 @@ body {
 }
 
 .subtext {
-  margin-bottom: 8px;
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
 }
 
-.subtext__span {
-  color: #000;
+.subtext:not(:last-child) {
+  margin-bottom: 8px;
 }
 
-.subtext:last-child {
-  margin-bottom: 0;
+.subtext__span {
+  color: #000;
 }
 
 .work {
